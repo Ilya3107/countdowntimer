@@ -1,0 +1,50 @@
+body {
+  font-family: Mukta;
+  background-color: #333333;
+  color: #fcfcfc;
+  font-size: 30px;
+}
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.header {
+  padding: 40px 0px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.timer {
+  height: 333px;
+  width: 333px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 15px solid #3e3e3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  & button {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #00c2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & .button__active {
+    background-color: #00c2ff;
+  }
+}
